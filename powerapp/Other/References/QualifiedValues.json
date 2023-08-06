@@ -1,0 +1,16 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cre88_chemicalregister_forms",
+      "Namespace": "Chemical Registers (Formularios)",
+      "Values": {
+        "Information": "33323494-e487-4394-8717-d29777406e31"
+      }
+    },
+    {
+      "Kind": "default.cds_processstageparameter_forms",
+      "Namespace": "ProcessStageParameters (Formularios)",
+      "Values": {}
+    }
+  ]
+}

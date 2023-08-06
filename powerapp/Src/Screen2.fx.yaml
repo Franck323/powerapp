@@ -1,0 +1,5 @@
+Screen2 As screen:
+    Fill: |
+        =
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
+

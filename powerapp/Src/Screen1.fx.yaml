@@ -1,0 +1,42 @@
+Screen1 As screen:
+    Fill: =RGBA(234, 234, 234, 1)
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
+
+    Button1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Set(varMyNFTCTag,ReadNFC())
+        Size: =24
+        Text: ="NFC SCANER"
+        Width: =280
+        X: =156
+        Y: =1030
+        ZIndex: =2
+
+    varMyNFCTag As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =70
+        Size: =21
+        Text: =varMyNFCTag.TabIndex
+        Width: =560
+        ZIndex: =3
+
+    varMyNFCTag_1 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =70
+        Size: =21
+        Text: =varMyNFCTag_1.TabIndex
+        Width: =560
+        Y: =70
+        ZIndex: =4
+

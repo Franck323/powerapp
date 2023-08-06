@@ -1,0 +1,118 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cre88_chemicalregisters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cre88_chemicalregister",
+    "Name": "Chemical Registers",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cre88_activeingredients": "Active Ingredients",
+      "cre88_casno": "CAS No",
+      "cre88_chemicalname": "Chemical Name",
+      "cre88_chemicalregister_AsyncOperations": "System Jobs",
+      "cre88_chemicalregister_BulkDeleteFailures": "Bulk Delete Failures",
+      "cre88_chemicalregister_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cre88_chemicalregister_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cre88_chemicalregister_ProcessSession": "Process Sessions",
+      "cre88_chemicalregister_SyncErrors": "Sync Errors",
+      "cre88_chemicalregisterid": "Chemical Register",
+      "cre88_classificationhazardsinformation": "Classification / Hazards information",
+      "cre88_column23": "Column23",
+      "cre88_enterby": "Enter by",
+      "cre88_ihassessment": "IH assessment",
+      "cre88_legalrequirement": "Legal Requirement",
+      "cre88_maxqtnallowed": "Max Qtn Allowed",
+      "cre88_mocno": "MOC No.",
+      "cre88_name": "Name",
+      "cre88_percentage": "Percentage",
+      "cre88_performingemployeejobtitle": "Performing employee job title",
+      "cre88_pictogram": "Pictogram",
+      "cre88_ppe": "PPE",
+      "cre88_processtask": "Process/Task",
+      "cre88_remarks": "Remarks",
+      "cre88_remarks_1": "Remarks_1",
+      "cre88_sdsexpirydate": "SDS Expiry date",
+      "cre88_sdsissuedate": "SDS Issue Date",
+      "cre88_sdsnumberchemicaluniqueidentifier": "SDS number/ Chemical Unique Identifier #",
+      "cre88_state": "State",
+      "cre88_totest": "To test?",
+      "cre88_uniquecontrolmeasures": "Unique Control Measures",
+      "cre88_users": "Users",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Chemical Registers",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Chemical Registers (Vistas)",
+    "Name": "_cre88_chemicalregister_views",
+    "RelatedEntityName": "Chemical Registers",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "444637c5-21e4-4cb6-9362-11de63bab556": "Chemical Register Associated View",
+      "8a0aae3f-ccdd-4ce2-8dd9-8ea9d3ae1dec": "Active Chemical Registers",
+      "a0246091-3242-43b7-80df-b0e74293d959": "Chemical Register Advanced Find View",
+      "bd0f872d-c1ff-49a6-a1dc-9a71df461e59": "Chemical Register Lookup View",
+      "c87ee7d3-0883-49ae-8312-2627ecbc4e0d": "Inactive Chemical Registers"
+    }
+  },
+  {
+    "DisplayName": "Status (Chemical Registers)",
+    "Name": "cre88_chemicalregister_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Chemical Registers"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Chemical Registers",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Chemical Registers)",
+    "Name": "cre88_chemicalregister_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Chemical Registers"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Chemical Registers",
+    "Type": "OptionSetInfo"
+  }
+]

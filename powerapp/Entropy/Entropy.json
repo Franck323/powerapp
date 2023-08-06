@@ -1,0 +1,75 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 7,
+    "Host": 3,
+    "Screen1": 4,
+    "Screen2": 8,
+    "varMyNFCTag": 5,
+    "varMyNFCTag_1": 6
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "08/06/2023 23:00:02",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "Chemical Registers": 6,
+    "Chemical Registers\\cre88_chemicalregister_statecode": 0,
+    "Chemical Registers\\cre88_chemicalregister_statuscode": 1,
+    "Chemical Registers\\default.cds_cre88_chemicalregister_views": 4,
+    "CustomGallerySample": 5,
+    "ProcessStageParameters": 7,
+    "ProcessStageParameters\\processstageparameter_statecode": 2,
+    "ProcessStageParameters\\processstageparameter_statuscode": 3
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "label": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Host": {},
+    "Screen1": {},
+    "Screen2": {},
+    "varMyNFCTag": {},
+    "varMyNFCTag_1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 2,
+    "Host": 0,
+    "Screen1": 0,
+    "Screen2": 0,
+    "varMyNFCTag": 0,
+    "varMyNFCTag_1": 1
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0652145,
+    "ControlCount": {
+      "button": 1,
+      "label": 2,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.6305558
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
